@@ -106,7 +106,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">DESIGN PORTFOLIO</h4>
+                    <h4 class="project-name text-lg">DESIGN PORTFOLIO</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -128,7 +128,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">E-LEARNING LANDING PAGE</h4>
+                    <h4 class="project-name text-lg">E-LEARNING LANDING PAGE</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -150,7 +150,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">TODO WEB APP</h4>
+                    <h4 class="project-name text-lg">TODO WEB APP</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -173,7 +173,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">ENTERTAINMENT WEB APP</h4>
+                    <h4 class="project-name text-lg">ENTERTAINMENT WEB APP</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -196,7 +196,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">MEMORY GAME</h4>
+                    <h4 class="project-name text-lg">MEMORY GAME</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -219,7 +219,7 @@
                             <button class="btn"><a href="https://github.com/" target="_blank">VIEW CODE</a></button>
                         </div>
                     </div>
-                    <h4 class="prject-name text-lg">ART GALLERY SHOWCASE</h4>
+                    <h4 class="project-name text-lg">ART GALLERY SHOWCASE</h4>
                     <ul class="project-langs">
                         <li class="fw-500 text-base">HTML</li>
                         <li class="fw-500 text-base">CSS</li>
@@ -250,14 +250,15 @@
                 </div>
 
                 <form class="contact-form">
-                    <input type="text" placeholder="NAME" required>
+                    <input type="text" placeholder="NAME" class="name" required>
                     <div class="contact-email">
-                        <input type="email" placeholder="EMAIL" required>
+                        <input type="email" placeholder="EMAIL" class="email" required>
                         <img src="icons/exclamation.png" alt="icon" class="contact-email-icon">
                         <span>Sorry, invalid format here</span>
                     </div>
-                    <textarea required>MESSAGE</textarea>
-                    <button type="submit" class="btn"><a href="#contact">SEND MESSAGE</a></button>
+                    <textarea class="textarea" required placeholder="MESSAGE"></textarea>
+                    <button class="btn" onclick="showValidation(event)"><a href="#contact">SEND
+                            MESSAGE</a></button>
                 </form>
             </div>
         </div>
@@ -291,6 +292,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- JS -->
+    <script src="js/main.js"></script>
 </body>
 
 </html>

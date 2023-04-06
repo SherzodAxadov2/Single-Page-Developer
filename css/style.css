@@ -299,7 +299,7 @@ body {
   color: #ff6f5b;
   margin-top: 5px;
 }
-.contact-email input:invalid ~ * {
+.contact-email.invalid > * {
   display: unset;
 }
 .contact input,
@@ -315,12 +315,13 @@ body {
   opacity: 0.5;
   border-bottom: 1px solid #fff;
 }
-.contact input:required,
-.contact textarea:required {
+.contact input.valid, .contact input:valid,
+.contact textarea.valid,
+.contact textarea:valid {
   border-bottom: 1px solid var(--green-light);
 }
-.contact input:invalid,
-.contact textarea:invalid {
+.contact input.invalid,
+.contact textarea.invalid {
   border-bottom: 1px solid #ff6f5b;
 }
 .contact textarea {

@@ -80,6 +80,13 @@
   .project-links {
     display: flex;
   }
+  .project-name {
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+  }
   .contact-bg {
     left: -162px;
   }
