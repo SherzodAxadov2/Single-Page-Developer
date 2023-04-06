@@ -1,0 +1,52 @@
+:root {
+    --black: #151515;
+    --green-light: #4EE1A0;
+    --gray: #242424;
+    --white: #fff;
+    --cream-color: #d9d9d9;
+    --text-base-size: 18px;
+    --text-base-leading: 28px;
+    --text-lg-size: 24px;
+    --text-lg-leading: 36px;
+    --text-xl-size: 48px;
+    --text-xl-leading: 56px;
+    --text-2xl-size: 88px;
+    --text-2xl-leading: 88px;
+    --transition: all .25s ease-in-out;
+}
+
+.text-base {
+    font-size: var(--text-base-size);
+    line-height: var(--text-base-leading);
+}
+
+.text-lg {
+    font-size: var(--text-lg-size);
+    line-height: var(--text-lg-leading);
+}
+
+.text-xl {
+    font-size: var(--text-xl-size);
+    line-height: var(--text-xl-leading);
+}
+
+.text-2xl {
+    font-size: var(--text-2xl-size);
+    line-height: var(--text-2xl-leading);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+button, input, select, textarea {
+    background: none;
+    border: none;
+    outline: none;
+    resize: none;
+}
